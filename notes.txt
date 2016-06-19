@@ -1,0 +1,9 @@
+************ Examples of commit messages with Pivotal Tracker *********************
+# git commit -m "message [delivers #tracker_id]"
+$ git add .
+$ git commit -m "Github and Pivotal Tracker hooks implemented [delivers #43903595]"
+$ git push
+************************************************************************************
+
+https://alexgirard.com/git-book/intermediaire/repair-reset-checkout-revert/
+https://alexgirard.com/git-book/
