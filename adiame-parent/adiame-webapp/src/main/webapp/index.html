@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Adiame</title>   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/jquery.steps.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="fonts/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="js/bootstrap-datepicker/css/datepicker.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/adiame.css" rel="stylesheet">    
+    <link rel="stylesheet" href="js/typeahead/jquery.typeahead.css">     
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="page-home">
+  	<button type="button" class="ds-backtotop" title="Back to Top" style="display: none;">
+	    <i class="fa fa-angle-up"></i>
+	  </button>
+  	<div class="wrap">
+  		<div class="header">
+  			<div class="container">
+  				<div class="row">
+	  				<div class="col-sm-2">
+	  					<a href="#" class="logo"><img src="images/logo.jpg" alt=""></a>
+	  				</div>
+	  				<div class="col-sm-10">
+	  					<div class="ds-mainnav">
+							<button class="btn-offcanvas visible-sm visible-xs" type="button"><i class="icon-menu"></i></button>
+							<ul class="ds-nav clearfix">
+								<li class="active"><a href="index.html"><i class="glyphicon glyphicon-home"></i>&nbsp;Accueil</a></li>
+								<li><a href="#">Actualités</a></li>
+								<li><a href="slide-9.html">Professionnels de santé</a></li>
+								<li><a href="#">Centres de santé</a></li>
+								<li><a href="#">Pharmacies</a><li>
+								<li><a href="#">Médicaments</a></li>
+								<li><a href="#">Pathologies</a></li>
+								<li><a href="slide-3.html">Diagnostic</a></li>									
+								<li><a href="slide-2.html"><i class="glyphicon glyphicon-log-in"></i>&nbsp;Se connecter</a></li>
+								<li class="visible-sm visible-xs"><button class="btn-hide-offcanvas " type="button"><i class="icon-close"></i></button></li>
+							</ul>
+						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+
+  		<div class="home-slider">
+  			<div class="home-slide-ct">
+  				<div class="container">
+  					<h1 class="adm-big-title">Une urgence?</h1>
+  					<span class="adm-title">Trouvez rapidement un médecin, une infirmière, un centre de santé, un médicament ou une pharmacie. </span>
+  					<div class="row">
+  						<div class="col-sm-8 col-sm-offset-2">
+	  						<form class="form-inline form-slider">
+	  							<div class="typeahead__container adm-inlinediv">
+				                    <div class="typeahead__field adm-hp-typeahead">	  							
+	  									<input type="text" class="form-control input-lg js-typeahead-input-ff" placeholder="Qui ou Quoi?" id="first-field" name="q" autofocus autocomplete="off"> 	  																
+				                    </div>				                    				                    				                    
+				                </div>	
+	  							<div class="typeahead__container adm-inlinediv">
+				                    <div class="typeahead__field adm-hp-typeahead">	  							
+						                <input type="text" class="form-control input-lg js-typeahead-input-sf" placeholder="Ou?" id="second-field" name="q" autofocus autocomplete="off">	  																
+				                    </div>				                    				                    				                    
+				                </div>
+			  						<button type="submit" class="btn btn-secondary btn-lg"><i class="icon-magnifier"></i></button>
+			  						<p class="clearfix">
+		  								<input type="checkbox"> à proximité de	
+		  							</p>				                	
+		  					</form>
+  						</div>  						
+  					</div>
+  					  					
+  					<h3>Vous remarquez des signes inquietants?</h3>
+  					<span>Faites un diagnostic rapide maintenant!</span>
+  					<h1></h1>
+
+					<div class="form-action clearfix">
+						<a href="slide-3.html" class="btn btn-primary btn-lg"><i class="icon-chemistry"></i>Diagnostic rapide</a>
+					</div>  					 					
+  				</div>
+  			</div>
+  		</div>
+
+  		<!-- Main Content -->
+  		<div class="page-body">
+  			<div class="container">
+  				<div class="row">
+  					<div class="col-sm-3">
+  						<div class="page-sidebar">
+  							<div class="mod mod-highlight">
+  								<h4 class="title">Recherche par region</h4>
+  								<div class="mod-ct">
+  									<ul class="mod-menu">
+  										<li><a href="#">Yaounde</a></li>
+											<li><a href="#">Douala</a></li>
+											<li><a href="#">Bamenda</a></li>
+											<li><a href="#">Bafoussam</a></li>
+											<li><a href="#">Bertoua</a></li>
+											<li><a href="#">Garoua</a></li>
+											<li><a href="#">Ebolowa</a></li>
+											<li><a href="#">Maroua</a></li>
+											<li><a href="#">Ngaoundere</a></li>
+  									</ul>
+  								</div>
+  								<div class="action">
+  									<a href="#">Voir toutes Les regions</a>
+  								</div>
+  							</div>
+  							<div class="mod">
+  								<h4 class="title">Recherche par region</h4>
+  								<div class="mod-ct">
+  									<ul class="mod-menu">
+  										<li><a href="#">Yaounde</a></li>
+											<li><a href="#">Douala</a></li>
+											<li><a href="#">Bamenda</a></li>
+											<li><a href="#">Bafoussam</a></li>
+											<li><a href="#">Bertoua</a></li>
+											<li><a href="#">Garoua</a></li>
+											<li><a href="#">Ebolowa</a></li>
+											<li><a href="#">Maroua</a></li>
+											<li><a href="#">Ngaoundere</a></li>
+  									</ul>
+  								</div>
+  								<div class="action">
+  									<a href="#">Voir toutes Les regions</a>
+  								</div>
+  							</div>
+  						</div>
+  					</div>
+  					<div class="col-sm-7">
+  						<div class="page-ct">
+  							<div class="post post-intro">
+	  							<h2 class="title">Actualités</h2>
+	  							<div class="row">
+	  								<div class="col-sm-6">
+	  									<div class="media">
+	  										<a href="#" class="media-object pull-left"><img src="images/sample-img-1.jpg" alt=""></a>
+	  										<div class="media-body">
+	  											<a href="#">Nouveaux diagnostic disponibles</a>
+	  										</div>
+	  									</div>
+	  								</div>
+	  								<div class="col-sm-6">
+	  									<div class="media">
+	  										<a href="#" class="media-object pull-left"><img src="images/sample-img-2.jpg" alt=""></a>
+	  										<div class="media-body">
+	  											<a href="#">Le paludisme un fléeau de toujours</a>
+	  										</div>
+	  									</div>
+	  								</div>
+	  							</div>
+  							</div>
+
+  							<div class="ads">
+  								<a href="#"><img src="images/ads-1.png" alt=""></a>
+  							</div>
+
+  							<div class="post">
+  								<h2 class="title">Top Recherches</h2>
+  								<h3 class="sub-title">Professional de sante</h3>
+  								<div class="user-list media-group">
+  									<div class="item media">
+  										<a href="#" class="media-object pull-left"><img src="images/sample-img-4.jpg" alt=""></a>
+  										<div class="media-body">
+  											<h4 class="media-heading item-name"><a href="#">Dr. Gwladys OWONA</a></h4>
+												<div class="item-rate">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="item-meta">Generaliste</div>
+												<div class="item-loc">Localisaiton: Yaounde, lieu dit Rond Pint Nlongkak</div>
+												<div class="item-action">
+													<div class="">
+														<a href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" title="Affitchiler le telephone"><i class="icon-phone"></i></a>
+														<a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Predre vender vous"><i class="icon-clock"></i></a>
+														<a href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" title="Cansultez les horaires"><i class="icon-calender"></i></a>
+														<a href="#" class="btn btn-default btn-sm">Plus d’info</a>
+													</div>
+												</div>
+  										</div>
+  									</div>
+  									<div class="item media item-sale">
+  										<a href="#" class="media-object pull-left"><img src="images/sample-img-5.jpg" alt=""></a>
+  										<div class="media-body">
+  											<h4 class="media-heading item-name"><a href="#">Dr. Gwalady OWANA</a></h4>
+												<div class="item-rate">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="item-meta">Generaliste</div>
+												<div class="item-loc">Localisaiton: Yaounde, lieu dit Rond Pint Nlongkak</div>
+												<div class="item-action">
+													<div class="">
+														<a href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" title="Affitchiler le telephone"><i class="icon-phone"></i></a>
+														<a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Predre vender vous"><i class="icon-clock"></i></a>
+														<a href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" title="Cansultez les horaires"><i class="icon-calender"></i></a>
+														<a href="#" class="btn btn-default btn-sm">Plus d’info</a>
+													</div>
+												</div>
+  										</div>
+  									</div>
+  								</div>
+  							</div>
+  							<div class="post">
+  								<h3 class="sub-title">Centre de sante</h3>
+  								<div class="user-list media-group">
+  									<div class="item media">
+  										<a href="#" class="media-object pull-left"><img src="images/sample-img-1.jpg" alt=""></a>
+  										<div class="media-body">
+  											<h4 class="media-heading item-name"><a href="#">Dr. Gwalady OWANA</a></h4>
+												<div class="item-rate">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="item-meta">Generaliste</div>
+												<div class="item-loc">Localisaiton: Yaounde, lieu dit Rond Pint Nlongkak</div>
+												<div class="item-action">
+													<div class="">
+														<a href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" title="Affitchiler le telephone"><i class="icon-phone"></i></a>
+														<a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Predre vender vous"><i class="icon-clock"></i></a>
+														<a href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" title="Cansultez les horaires"><i class="icon-calender"></i></a>
+														<a href="#" class="btn btn-default btn-sm">Plus d’info</a>
+													</div>
+												</div>
+  										</div>
+  									</div>
+  									<div class="item media">
+  										<a href="#" class="media-object pull-left"><img src="images/sample-img-2.jpg" alt=""></a>
+  										<div class="media-body">
+  											<h4 class="media-heading item-name"><a href="#">Dr. Gwalady OWANA</a></h4>
+												<div class="item-rate">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="item-meta">Generaliste</div>
+												<div class="item-loc">Localisaiton: Yaounde, lieu dit Rond Pint Nlongkak</div>
+												<div class="item-action">
+													<div class="">
+														<a href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" title="Affitchiler le telephone"><i class="icon-phone"></i></a>
+														<a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Predre vender vous"><i class="icon-clock"></i></a>
+														<a href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" title="Cansultez les horaires"><i class="icon-calender"></i></a>
+														<a href="#" class="btn btn-default btn-sm">Plus d’info</a>
+													</div>
+												</div>
+  										</div>
+  									</div>
+  								</div>
+  							</div>
+  							<div class="post">
+  								<h3 class="sub-title">Phamarcies</h3>
+  								<div class="user-list media-group">
+  									<div class="item media">
+  										<a href="#" class="media-object pull-left"><img src="images/sample-img-5.jpg" alt=""></a>
+  										<div class="media-body">
+  											<h4 class="media-heading item-name"><a href="#">Dr. Gwalady OWANA</a></h4>
+												<div class="item-rate">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="item-meta">Generaliste</div>
+												<div class="item-loc">Localisaiton: Yaounde, lieu dit Rond Pint Nlongkak</div>
+												<div class="item-action">
+													<div class="">
+														<a href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" title="Affitchiler le telephone"><i class="icon-phone"></i></a>
+														<a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Predre vender vous"><i class="icon-clock"></i></a>
+														<a href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" title="Cansultez les horaires"><i class="icon-calender"></i></a>
+														<a href="#" class="btn btn-default btn-sm">Plus d’info</a>
+													</div>
+												</div>
+  										</div>
+  									</div>
+  									<div class="item media">
+  										<a href="#" class="media-object pull-left"><img src="images/sample-img-6.jpg" alt=""></a>
+  										<div class="media-body">
+  											<h4 class="media-heading item-name"><a href="#">Dr. Gwalady OWANA</a></h4>
+												<div class="item-rate">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="item-meta">Generaliste</div>
+												<div class="item-loc">Localisaiton: Yaounde, lieu dit Rond Pint Nlongkak</div>
+												<div class="item-action">
+													<div class="">
+														<a href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" title="Affitchiler le telephone"><i class="icon-phone"></i></a>
+														<a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Predre vender vous"><i class="icon-clock"></i></a>
+														<a href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" title="Cansultez les horaires"><i class="icon-calender"></i></a>
+														<a href="#" class="btn btn-default btn-sm">Plus d’info</a>
+													</div>
+												</div>
+  										</div>
+  									</div>
+  								</div>
+  							</div>
+  						</div>
+  					</div>
+  					<div class="col-sm-2">
+  						<div class="page-sidebar">
+  							<div class="mod">
+  								<h4 class="title">Recherche par region</h4>
+  								<div class="mod-ct">
+  									<ul class="mod-menu">
+  										<li><a href="#">Yaounde</a></li>
+											<li><a href="#">Douala</a></li>
+											<li><a href="#">Bamenda</a></li>
+											<li><a href="#">Bafoussam</a></li>
+											<li><a href="#">Bertoua</a></li>
+											<li><a href="#">Garoua</a></li>
+											<li><a href="#">Ebolowa</a></li>
+											<li><a href="#">Maroua</a></li>
+											<li><a href="#">Ngaoundere</a></li>
+  									</ul>
+  								</div>
+  								<div class="action">
+  									<a href="#">Voir toutes Les regions</a>
+  								</div>
+  							</div>
+  							<div class="ads">
+  								<a href="#"><img src="images/ads-ver-1.png" alt=""></a>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+
+  		<!-- CTA -->
+  		<div class="cta">
+  			<div class="container">
+  				<div class="row">
+  					<div class="col-sm-9">
+  						<div class="cta-intro">Espace publicitaire</div>
+  						<div class="cta-ct">Praesent dolor lorem, ornare quis dignissim sed, ultricies sed augue. </div>
+  					</div>
+  					<div class="col-sm-3">
+  						<div class="cta-action">
+  							<a href="#" class="btn btn-default">Action</a>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+
+  		<!-- Footer -->
+  		<div class="footer">
+  			<div class="container">
+  				<div class="footer-top">
+  					
+  				</div>
+  				<div class="row">
+  					<div class="col-sm-9">
+  						<p class="copyright">Copyright 2016 Adiame.</p>
+  						<div class="footer-nav">
+  							<ul>
+  								<li><a href="#">Home</a></li>
+  								<li><a href="#">About</a></li>
+  								<li><a href="#">Privacy</a></li>
+  								<li><a href="#">Help?</a></li>
+  								<li><a href="#">Contact</a></li>
+  							</ul>
+  						</div>
+  					</div>
+  					<div class="col-sm-3">
+  						<ul class="site-social">
+  							<li><a href="#"><i class="icon-social-facebook"></i></a></li>
+  							<li><a href="#"><i class="icon-social-twitter"></i></a></li>
+  							<li><a href="#"><i class="icon-social-linkedin"></i></a></li>
+  							<li><a href="#"><i class="icon-social-instagram"></i></a></li>
+  						</ul>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.steps.min.js"></script>
+		<script src="js/bootstrap-select.js"></script>
+		<script src="js/scripts.js"></script>
+    <script src="js/typeahead/jquery.typeahead.js"></script>
+    <script>
+
+        var data = {
+            "ale": [
+                "Affligem Blonde", "Amsterdam Big Wheel", "Amsterdam Boneshaker IPA", "Amsterdam Downtown Brown", "Amsterdam Oranje Summer White",
+                "Anchor Liberty Ale", "Beaus Lug Tread Lagered Ale", "Beerded Lady", "Belhaven Best Ale", "Big Rock Grasshopper Wheat",
+                "Big Rock India Pale Ale", "Big Rock Traditional Ale", "Big Rock Warthog Ale", "Black Oak Nut Brown Ale", "Black Oak Pale Ale",
+                "Boddingtons Pub Ale", "Boundary Ale", "Caffreys", "Camerons Auburn Ale", "Camerons Cream Ale", "Camerons Rye Pale Ale", "Ceres Strong Ale",
+                "Cheval Blanc", "Crazy Canuck Pale Ale", "Creemore Springs Altbier", "Crosswind Pale Ale", "De Koninck", "Delirium Tremens",
+                "Erdinger Dunkel Weissbier", "Erdinger Weissbier", "Export", "Flying Monkeys Amber Ale", "Flying Monkeys Antigravity",
+                "Flying Monkeys Hoptical", "Flying Monkeys Netherworld", "Flying Monkeys Smashbomb", "Fruli", "Fullers Extra Spec Bitter",
+                "Fullers London Pride", "Granville English Bay Pale", "Granville Robson Hefeweizen", "Griffon Pale Ale", "Griffon Red Ale",
+                "Hacker-Pschorr Hefe Weisse", "Hacker-Pschorr Munchen Gold", "Hockley Dark Ale", "Hoegaarden", "Hops & Robbers IPA", "Houblon Chouffe",
+                "James Ready Original Ale", "Kawartha Cream Ale", "Kawartha Nut Brown Ale", "Kawartha Premium Pale Ale", "Kawartha Raspberry Wheat",
+                "Keiths", "Keiths Cascade Hop Ale", "Keiths Galaxy Hop Ale", "Keiths Hallertauer Hop Ale", "Keiths Hop Series Mixer",
+                "Keiths Premium White", "Keiths Red", "Kilkenny Cream Ale", "Konig Ludwig Weissbier", "Kronenbourg 1664 Blanc", "La Chouffe",
+                "La Messager Red Gluten Free", "Labatt 50 Ale", "Labatt Bass Pale Ale", "Lakeport Ale", "Leffe Blonde", "Leffe Brune",
+                "Legendary Muskoka Oddity", "Liefmans Fruitesse", "Lions Winter Ale", "Maclays", "Mad Tom IPA", "Maisels Weisse Dunkel",
+                "Maisels Weisse Original", "Maredsous Brune", "Matador 2.0 El Toro Bravo", "Mcauslan Apricot Wheat Ale", "Mcewans Scotch Ale",
+                "Mill St Belgian Wit", "Mill St Coffee Porter", "Mill St Stock Ale", "Mill St Tankhouse Ale", "Molson Stock Ale", "Moosehead Pale Ale",
+                "Mort Subite Kriek", "Muskoka Cream Ale", "Muskoka Detour IPA", "Muskoka Harvest Ale", "Muskoka Premium Dark Ale", "Newcastle Brown Ale",
+                "Niagaras Best Blonde Prem", "Okanagan Spring Pale Ale", "Old Speckled Hen", "Ommegang Belgian Pale Ale", "Ommegang Hennepin", "PC IPA",
+                "Palm Amber Ale", "Petrus Blonde", "Petrus Oud Bruin Aged Red", "Publican House Ale", "Red Cap", "Red Falcon Ale", "Rickards Dark",
+                "Rickards Original White", "Rickards Red", "Rodenbach Grand Cru", "Schofferhofer Hefeweizen", "Shock Top Belgian White",
+                "Shock Top Raspberry Wheat", "Shock Top Variety Pack", "Sleeman Cream Ale", "Sleeman Dark", "Sleeman India Pale Ale", "Smithwicks Ale",
+                "Spark House Red Ale", "St. Ambroise India Pale Ale", "St. Ambroise Oatmeal Stout", "St. Ambroise Pale Ale", "Stereovision Kristall Wheat",
+                "Stone Hammer Dark Ale", "Sunny & Share Citrus Saison", "Tetleys English Ale", "Thirsty Beaver Amber Ale", "True North Copper Altbier",
+                "True North Cream Ale", "True North India Pale Ale", "True North Strong", "True North Wunder Weisse", "Twice As Mad Tom IPA",
+                "Unibroue La Fin Du Monde", "Unibroue Maudite", "Unibroue Trois Pistoles", "Upper Canada Dark Ale", "Urthel Hop-It Tripel IPA",
+                "Waterloo IPA", "Weihenstephan Kristalweiss", "Wellington Arkell Best Bitr", "Wellington County Dark Ale", "Wellington Special Pale", "Wells IPA"
+            ],
+            "lager": [
+                "AC-DC Premium Lager", "Alpine Lager", "Amstel Light", "Amsterdam (416) Local Lager", "Amsterdam Natural Blonde", "Anchor Steam Beer",
+                "Barking Squirrel Lager", "Bavaria 8.6", "Bavaria 8.6 Red", "Bavaria Grapefruit Radler", "Bavaria Premium Beer", "Bavik Pils",
+                "Baysville Rock Cut Lager", "Becks", "Belle Gueule", "Big Rock Brewmasters Selection", "Big Rock Light Lime", "Big Rock Saaz Republic Pilz",
+                "Birra Castello", "Birra Moretti", "Bitburger", "Black Ice", "Black Label", "Blue", "Blue Light", "Bohemian", "Boris Beer",
+                "Boris Bold Strong Beer", "Boxer Ice", "Boxer Lager", "Brava", "Brava 5.5", "Brava Light", "Brouczech Premium Lager", "Bud Light",
+                "Bud Light Lime", "Bud Light Lime Labatt", "Bud Light Platinum", "Budweiser", "Budweiser Crown", "Budweiser Shot Labatt", "Busch Ice",
+                "Busch Lager", "Busch Light", "Camerons Dark266", "Camerons Lager", "Canadian", "Canadian 67", "Canadian 67 Sublime", "Canadian Coldshots",
+                "Carib Lager", "Carling Ice", "Carling Lager", "Carling Light", "Carlsberg", "Carlsberg Lite", "Cool Beer Lager", "Coors Banquet", "Coors Light",
+                "Corona", "Corona Light", "Cracked Canoe", "Creemore Collection", "Creemore Kellerbier", "Creemore Lager", "Creemore Springs Combo Pack",
+                "Creemore Trad Pilsner", "Creemore Urbock", "Crest Super", "Crystal", "Czechvar", "Dab Maibock", "Dab Original Lager", "Dead Frog Mixed Pack",
+                "Desperados Tequila Beer", "Dos Equis Amber", "Dos Equis Lager", "Dunkel Weihenstephaner", "Faxe Amber Lager", "Faxe Extra Strong - 10",
+                "Faxe Premium Lager - 5", "Faxe Red", "Faxe Strong", "Formosa Springs Draft", "Fosters Import", "Fuerstenberg Prem Pilsener", "Get2gether",
+                "Granville Summer Mingler", "Grolsch Lager 450ml", "Grolsch Premium Lager", "Guinness Black Lager", "Hacker-Pschorr Kellerbier", "Harbin Beer",
+                "Harp Lager", "Heineken", "Henninger Premium Lager", "Hockley Taster Pack", "Hofbraeu Muenchen Original", "Hogsback Vintage Lager",
+                "Hollandia Pilsner", "Holsten Festbock", "Holsten Maibock", "Holsten Premium Bier", "Hopf Weisse", "Hops Bolts India Pale Lager",
+                "James Ready 5.5", "James Ready Ice 6.0", "James Ready Lager", "James Ready Light", "Jever Pilsener", "Keiths Brewmaster", "Keiths Light",
+                "Keystone Ice", "Keystone Lager", "Keystone Light", "King Brewery Dark Lager", "King Brewery Pilsner", "King Brewery Vienna Lager", "Kokanee",
+                "Kozel", "Krombacher Dark", "Krombacher Pils", "Krombacher Weizen", "Kronenbourg 1664", "La Tabachera", "Labatt Extra Dry", "Labatt Genuine Lager",
+                "Labatt Ice", "Lakeport Honey Lager", "Lakeport Ice", "Lakeport Light", "Lakeport Pilsener", "Lakeport Red", "Laker Extra Ice", "Laker Honey",
+                "Laker Ice", "Laker Lager", "Laker Light", "Laker Red", "Laker Strong", "Lech Beer", "Lowenbrau", "Lucky Lager", "Maximum Ice", "Menabrea Blonda",
+                "Michelob Ultra", "Mill St Original Organic", "Millennium Buzz Hemp Beer", "Miller Chill Domestic", "Miller Chill Import",
+                "Miller Genuine Draft Clear", "Molson Canadian Wheat", "Molson Dry", "Molson M", "Molson XXX", "Mongozo Premium Pilsner", "Moosehead Lager",
+                "Moosehead Light", "Moosehead Light Lime", "Moskato Life", "Moskato Life Rose", "Muskoka Craft Lager", "Muskoka Summer Weiss",
+                "Muskoka Survival Pack", "Mythos Beer", "Negra Modelo", "Neustadt Lager", "Octane 7.0", "Okanagan Craft Pack", "Okanagan Springs 1516 Lager",
+                "Okocim Pilsner", "Old Milwaukee", "Old Milwaukee", "Old Milwaukee Ice", "Old Milwaukee Light", "Old Style Pilsner", "Old Vienna",
+                "PC Black Lager", "PC Cerveza", "PC Down Under Amber", "PC Dry", "PC Genuine Lager", "PC Honey Red", "PC Light", "PC Low Carb", "PC Plznr",
+                "Pabst Blue Ribbon", "Pabst Blue Ribbon 5.9", "Pabst Blue Ribbon Light", "Paulaner Hefe-Weissbier", "Pedavena Birra Dolomiti",
+                "Peroni Nastro Azzuro", "Pilsner Urquell", "Pistonhead Kustom Lager", "Poppers Party Pack", "Prison Break Pilsner", "Radeberger Pilsner",
+                "Red Baron", "Red Baron Light", "Red Baron Lime", "Red Baron Platinum Light", "Red Bull", "Red Stripe", "Rickards Blonde", "Rickards Cardigan",
+                "Rickards Fall Taster", "Rickards Lederhosen", "Rickards Oakhouse", "Rickards Shandy", "Rickards Summer Taster Pack", "Rickards Taster Pack",
+                "Rickards Winter Taster Pack", "Rolling Rock Pale Lager", "Rosarda Rose", "Saint Andre", "Samuel Adams Boston Lager", "San Miguel Premium Lager",
+                "Sapporo", "Schnitzerbrau Gluten Free Lager", "Schofferhofer Grapefruit Radlr", "Seagram Mixer Pack", "Shock Top Lemon Shandy", "Sleeman Clear 2.0",
+                "Sleeman Honey Brown Lager", "Sleeman Light", "Sleeman Original Draught", "Sleeman Seasonal Selections", "Sleeman Selections",
+                "Sleeman Silver Creek Lager", "Sol", "Spaten", "St Ambroise Premium Taster", "Staropramen", "Steam Whistle", "Steeler", "Stella Artois",
+                "Stella Legere", "Stiegl Bier", "Stiegl Grapefruit Radler", "Stone Hammer Pilsner", "Stonewall Light", "Tecate", "Tennents Export Lager",
+                "Thurn Taxis Lager", "Thurn Taxis Pilsener", "Thurn Taxis Wolfgang Dunkl", "Tiger Beer", "Trailhead Premium Lager", "True North Blonde Lager",
+                "Tuborg Gold", "Tuborg Pilsner", "Tyskie", "Unibroue Blanche Dechambly", "Upper Canada Lager", "Warsteiner Premium Dunkel", "Warsteiner Premium Verum",
+                "Waterloo Amber Lager", "Waterloo Dark", "Waterloo Grapefruit Radler", "Waterloo Kolsch Sampler", "Waterloo Pilsner", "Weihenstephan Vitus",
+                "Weihenstephaner Hefeweiss", "Wernesgruner Pils", "Winter Mingler", "Wolfgangs German Style Beer", "Xingu Black Beer", "Yanjing Beer", "Zywiec Beer"
+            ],
+            "stout": [
+                "Belhaven Black Scottish Stout", "Guinness Draught Bottle", "Guinness Extra Stout", "Guinness Pub Draught", "Murphys Irish Stout",
+                "Muskoka Chocolate Cranberry", "Sleeman Fine Porter"
+            ],
+            "malt": [
+                "Boxer Watermelon", "Bud Light Lime Lime-a-rita", "Bud Light Lime Mang-o-rita", "Bud Light Lime Straw-ber-rita", "Colt 45",
+                "DJ Trotters Flirty Daiquiri", "DJ Trotters Lolita", "Four Loko Black Cherry", "Four Loko Fruit Punch", "Four Loko Grape", "Four Loko Lemonade",
+                "Four Loko Peach", "Four Loko Watermelon", "Kensington Watermelon Wheat", "Mad Jack", "Mickeys", "Mojo Fruit Punch", "Mojo Shot Blue Lagoon",
+                "Mojo Shot Melon Ball", "Mojo Shot Sourberry", "Mojo Strawberry & Kiwi", "Mons Abbey Blonde", "Mons Abbey Witte", "Olde English 800",
+                "Pepito Sangria", "Poppers Cran Ice", "Poppers Hard Ice", "Poppers Orange Smoothie", "Poppers Pink", "Poppers Ricco Sangria", "Poppers Wild Ice",
+                "Seagram Iced Lemon Tea", "Seagram Lemon Lime", "Seagram Orange Mango", "Seagram Wildberry", "Seagram Wildberry Extra 6.9", "Twisted Tea", "Wellington Iron Duke"
+            ]
+        };
+
+        $.typeahead({
+            input: ".js-typeahead-input-ff",
+            minLength: 1,
+            maxItem: 15,
+            order: "asc",
+            //hint: true,
+            group: {
+                template: "{{group}} beers!"
+            },
+            maxItemPerGroup: 5,
+            //backdrop: {
+            //   "background-color": "#fff"
+            //},
+            //href: "/beers/{{group}}/{{display}}/",
+            //emptyTemplate: 'No result for "{{query}}"',
+            source: {
+                "Dentistes": {
+                    data: data.ale
+                },
+                "Généralistes": {
+                    data: data.lager
+                },
+                "Chirurgiens": {
+                    data: data.stout
+                },
+                "Dermatologues": {
+                    data: data.malt
+                }
+            },
+            callback: {
+                onClickAfter: function (node, a, item, event) {
+
+                    // href key gets added inside item from options.href configuration
+                    //alert(item.href);
+
+                }
+            },
+            debug: false
+        });
+        $.typeahead({
+            input: ".js-typeahead-input-sf",
+            minLength: 1,
+            maxItem: 15,
+            order: "asc",
+            //hint: true,
+            group: {
+                template: "{{group}} beers!"
+            },
+            maxItemPerGroup: 5,
+            //backdrop: {
+            //   "background-color": "#fff"
+            //},
+            //href: "/beers/{{group}}/{{display}}/",
+            //emptyTemplate: 'No result for "{{query}}"',
+            source: {
+                "Bastos - Yaoundé": {
+                    data: data.ale
+                },
+                "Emana - Yaoundé": {
+                    data: data.lager
+                },
+                "Biyem-Assi - Yaoundé": {
+                    data: data.stout
+                },
+                "Eleveur - Yaoundé": {
+                    data: data.malt
+                }
+            },
+            callback: {
+                onClickAfter: function (node, a, item, event) {
+
+                    // href key gets added inside item from options.href configuration
+                    //alert(item.href);
+
+                }
+            },
+            debug: false
+        });        
+    </script>		
+  </body>
+</html>

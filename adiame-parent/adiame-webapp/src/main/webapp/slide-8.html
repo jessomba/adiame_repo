@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Adiame</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/jquery.steps.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="fonts/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="js/bootstrap-datepicker/css/datepicker.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/adiame.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="page-inner">
+  	<button type="button" class="ds-backtotop" title="Back to Top" style="display: none;">
+	    <i class="fa fa-angle-up"></i>
+	  </button>
+  	<div class="wrap">
+  		<div class="header">
+  			<div class="container">
+  				<div class="row">
+	  				<div class="col-sm-2">
+	  					<a href="#" class="logo"><img src="images/logo.jpg" alt=""></a>
+	  				</div>
+	  				<div class="col-sm-10">
+	  					<div class="ds-mainnav">
+							<button class="btn-offcanvas visible-sm visible-xs" type="button"><i class="icon-menu"></i></button>
+							<ul class="ds-nav clearfix">
+								<li><a href="index.html"><i class="glyphicon glyphicon-home"></i>&nbsp;Accueil</a></li>
+								<li><a href="#">Actualités</a></li>
+								<li class="active"><a href="slide-9.html">Professionnels de santé</a></li>
+								<li><a href="#">Centres de santé</a></li>
+								<li><a href="#">Pharmacies</a><li>
+								<li><a href="#">Médicaments</a></li>
+								<li><a href="#">Pathologies</a></li>
+								<li><a href="slide-3.html">Diagnostic</a></li>									
+								<li><a href="slide-2.html"><i class="glyphicon glyphicon-log-in"></i>&nbsp;Se connecter</a></li>
+								<li class="visible-sm visible-xs"><button class="btn-hide-offcanvas " type="button"><i class="icon-close"></i></button></li>
+							</ul>
+						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+
+  		<div class="sub-hero">
+  			<div class="home-slide-ct">
+  				<div class="container">
+  					<div class="row">
+  						<div class="col-md-6 col-md-offset-3">
+	  						<form class="form-inline form-slider">
+	  							<input type="text" class="form-control first-field" placeholder="Qui ou Quoi?">
+	  							<input type="text" class="form-control" placeholder="Ou?">
+		  						<button type="submit" class="btn btn-primary"><i class="icon-magnifier"></i> </button>
+		  					</form>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+
+  		<!-- Main Content -->
+  		<div class="page-body">
+  			<div class="container">
+  				<div class="section-search">
+  					<form class="form-horizontal form-section-search">
+  						<div class="form-group">
+  							<div class="col-sm-4">
+  								<label><i class="icon-user"></i> Nom</label>
+  								<p>Some text description</p>
+  								<input type="text" class="form-control" placeholder="">
+  								<p class="help-block">Ex: John Doe</p>
+  							</div>
+  							<div class="col-sm-4">
+  								<label class="clearfix">
+  								<i class="icon-heart"></i> Profession 
+  								<a href="#modal-index" data-toggle="modal" class="pull-right"><i class="fa fa-angle-right"></i> Liste des professions</a>
+  								</label>
+  								<p>Some text description</p>
+  								<input type="text" class="form-control" placeholder="">
+  								<p class="help-block">Ex: Orphtan</p>
+  								
+  							</div>
+  							<div class="col-sm-4">
+  								<label class="clearfix">
+	  								<i class="icon-user"></i> Acte
+	  								<a href="#modal-index" data-toggle="modal" class="pull-right"><i class="fa fa-angle-right"></i> Liste des professions</a>
+  								</label>
+  								<p>Some text description</p>
+  								<input type="text" class="form-control" placeholder="">
+  								<p class="help-block">Ex: John Doe</p>
+  								
+  							</div>
+  						</div>
+  						<div class="row-search-primary">
+	  							<label>Ou?</label>
+  								<p>Some text description</p>
+	  							<div class="input-group">
+	  								<input type="text" class="form-control" placeholder="Ou?">
+	  								<span class="input-group-btn">
+	  									<button type="submit" class="btn btn-secondary"><i class="icon-magnifier"></i></button>
+	  								</span>
+	  							</div>
+	  							<p class="clearfix">
+	  								<input type="checkbox"> a proxime de
+	  								<span class="pull-right">Ex: John Doe</span>
+	  							</p>
+  						</div>
+  					</form>
+  				</div>
+  				<div class="row">
+  					<div class="col-sm-3">
+  						<div class="page-sidebar page-sidebar-search">
+  							<div class="mod">
+  								<h4 class="title">Filter</h4>
+  								<div class="mod-ct">
+  										<form class="form-horizontal">
+  									<ul class="mod-filter">
+  										<li><strong>Filter Group Title</strong>
+	  										<ul>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  										</ul>
+  										</li>
+  										<li><strong>Filter Group Title</strong>
+	  										<ul>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  										</ul>
+  										</li>
+  										<li><strong>Filter Group Title</strong>
+	  										<ul>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  										</ul>
+  										</li>
+  										<li><strong>Filter Group Title</strong>
+	  										<ul>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  											<li><label class="checkbox-inline"><input type="checkbox"> <span>Filter Item</span></label></li>
+	  										</ul>
+  										</li>
+  									</ul>
+  									</form>
+  								</div>
+  							</div>
+  						</div>
+  					</div>
+  					<div class="col-sm-9">
+  						<div class="page-ct page-ct-search">
+  							<h1 class="page-title text-left">Fiche Descriptive du Paludisme</h1>
+  							<div class="post">
+  								<h3 class="sub-title">10 Resultate Trav</h3>
+  								<div class="user-list media-group">
+  									<div class="item media">
+  										<a href="#" class="media-object pull-left"><img src="images/sample-img-1.jpg" alt=""></a>
+  										<div class="media-body">
+  											<h4 class="media-heading item-name"><a href="#">Dr. Gwalady OWANA</a></h4>
+												<div class="item-rate">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="item-meta">Generaliste</div>
+												<div class="item-loc">Localisaiton: Yaounde, lieu dit Rond Pint Nlongkak</div>
+												<div class="item-action">
+													<div class="">
+														<a href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" title="Affitchiler le telephone"><i class="icon-phone"></i></a>
+														<a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Predre vender vous"><i class="icon-clock"></i></a>
+														<a href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" title="Cansultez les horaires"><i class="icon-calender"></i></a>
+														<a href="#" class="btn btn-default btn-sm">Plus d’info</a>
+													</div>
+												</div>
+  										</div>
+  									</div>
+  									<div class="item media item-sale">
+  										<a href="#" class="media-object pull-left"><img src="images/sample-img-2.jpg" alt=""></a>
+  										<div class="media-body">
+  											<h4 class="media-heading item-name"><a href="#">Dr. Gwalady OWANA</a></h4>
+												<div class="item-rate">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="item-meta">Generaliste</div>
+												<div class="item-loc">Localisaiton: Yaounde, lieu dit Rond Pint Nlongkak</div>
+												<div class="item-action">
+													<div class="">
+														<a href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" title="Affitchiler le telephone"><i class="icon-phone"></i></a>
+														<a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Predre vender vous"><i class="icon-clock"></i></a>
+														<a href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" title="Cansultez les horaires"><i class="icon-calender"></i></a>
+														<a href="#" class="btn btn-default btn-sm">Plus d’info</a>
+													</div>
+												</div>
+  										</div>
+  									</div>
+  									<div class="item media">
+  										<a href="#" class="media-object pull-left"><img src="images/sample-img-1.jpg" alt=""></a>
+  										<div class="media-body">
+  											<h4 class="media-heading item-name"><a href="#">Dr. Gwalady OWANA</a></h4>
+												<div class="item-rate">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="item-meta">Generaliste</div>
+												<div class="item-loc">Localisaiton: Yaounde, lieu dit Rond Pint Nlongkak</div>
+												<div class="item-action">
+													<div class="">
+														<a href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" title="Affitchiler le telephone"><i class="icon-phone"></i></a>
+														<a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Predre vender vous"><i class="icon-clock"></i></a>
+														<a href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" title="Cansultez les horaires"><i class="icon-calender"></i></a>
+														<a href="#" class="btn btn-default btn-sm">Plus d’info</a>
+													</div>
+												</div>
+  										</div>
+  									</div>
+  									<div class="item media item-sale">
+  										<a href="#" class="media-object pull-left"><img src="images/sample-img-2.jpg" alt=""></a>
+  										<div class="media-body">
+  											<h4 class="media-heading item-name"><a href="#">Dr. Gwalady OWANA</a></h4>
+												<div class="item-rate">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="item-meta">Generaliste</div>
+												<div class="item-loc">Localisaiton: Yaounde, lieu dit Rond Pint Nlongkak</div>
+												<div class="item-action">
+													<div class="">
+														<a href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" title="Affitchiler le telephone"><i class="icon-phone"></i></a>
+														<a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" title="Predre vender vous"><i class="icon-clock"></i></a>
+														<a href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" title="Cansultez les horaires"><i class="icon-calender"></i></a>
+														<a href="#" class="btn btn-default btn-sm">Plus d’info</a>
+													</div>
+												</div>
+  										</div>
+  									</div>
+  								</div>
+  							</div>
+
+  							<div class="pagination">
+  								<a href="#"><i class="fa fa-angle-left"></i></a>
+  								<span class="current">1</span>
+  								<a href="#">2</a>
+  								<a href="#">3</a>
+  								<a href="#">4</a>
+  								<span class="more">...</span>
+  								<a href="#">9</a>
+  								<a href="#"><i class="fa fa-angle-right"></i></a>
+  							</div>
+
+  							<div class="ads">
+  								<a href="#"><img src="images/ads-1.png" alt=""></a>
+  							</div>
+  							
+  						</div>
+  					</div>
+  					
+  				</div>
+  			</div>
+  		</div>
+
+  		<!-- CTA -->
+  		<div class="cta">
+  			<div class="container">
+  				<div class="row">
+  					<div class="col-sm-9">
+  						<div class="cta-intro">Espace publicitaire</div>
+  						<div class="cta-ct">Praesent dolor lorem, ornare quis dignissim sed, ultricies sed augue. </div>
+  					</div>
+  					<div class="col-sm-3">
+  						<div class="cta-action">
+  							<a href="#" class="btn btn-default">Action</a>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+
+  		<!-- Footer -->
+  		<div class="footer">
+  			<div class="container">
+  				<div class="footer-top">
+  					
+  				</div>
+  				<div class="row">
+  					<div class="col-sm-9">
+  						<p class="copyright">Copyright 2016 Adiame.</p>
+  						<div class="footer-nav">
+  							<ul>
+  								<li><a href="#">Home</a></li>
+  								<li><a href="#">About</a></li>
+  								<li><a href="#">Privacy</a></li>
+  								<li><a href="#">Help?</a></li>
+  								<li><a href="#">Contact</a></li>
+  							</ul>
+  						</div>
+  					</div>
+  					<div class="col-sm-3">
+  						<ul class="site-social">
+  							<li><a href="#"><i class="icon-social-facebook"></i></a></li>
+  							<li><a href="#"><i class="icon-social-twitter"></i></a></li>
+  							<li><a href="#"><i class="icon-social-linkedin"></i></a></li>
+  							<li><a href="#"><i class="icon-social-instagram"></i></a></li>
+  						</ul>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+
+  	<!-- Modal -->
+
+  	<div class="modal fade" tabindex="-1" role="dialog" id="modal-index">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Selectionnez une profession</h4>
+		      </div>
+		      <div class="modal-body">
+		       	<div class="index-list">
+		       		<div class="character">
+		       			<a href="#">a</a><a href="#">b</a><a href="#">c</a><a href="#">d</a>
+		       			<a href="#">e</a><a href="#">f</a><a href="#">g</a><a href="#">h</a>
+		       			<a href="#" class="disabled">j</a><a href="#">k</a><a href="#">l</a><a href="#">m</a>
+		       			<a href="#">n</a><a href="#">y</a><a href="#">u</a><a href="#">o</a>
+		       			<a href="#">p</a><a href="#" class="disabled">q</a><a href="#" class="disabled">r</a><a href="#">s</a>
+		       			<a href="#">t</a><a href="#" class="disabled">x</a><a href="#">y</a><a href="#">z</a>
+		       		</div>
+
+		       		<div class="character-detail">
+		       			<h4 class="title">a</h4>
+		       			<a class="character-detail-item" href="#"><strong>Adam Name</strong> Some text description</a>
+		       			<a class="character-detail-item" href="#"><strong>Adam Name</strong> Some text description</a>
+		       			<a class="character-detail-item" href="#"><strong>Adam Name</strong> Some text description</a>
+		       			<a class="character-detail-item" href="#"><strong>Adam Name</strong> Some text description</a>
+		       		</div>
+		       		<div class="character-detail">
+		       			<h4 class="title">b</h4>
+		       			<a class="character-detail-item" href="#"><strong>Big Name</strong> Some text description</a>
+		       			<a class="character-detail-item" href="#"><strong>Big Name</strong> Some text description</a>
+		       			<a class="character-detail-item" href="#"><strong>Big Name</strong> Some text description</a>
+		       			<a class="character-detail-item" href="#"><strong>Big Name</strong> Some text description</a>
+		       		</div>
+		       		<div class="character-detail">
+		       			<h4 class="title">c</h4>
+		       			<a class="character-detail-item" href="#"><strong>Cemter Name</strong> Some text description</a>
+		       			<a class="character-detail-item" href="#"><strong>Cemter Name</strong> Some text description</a>
+		       			<a class="character-detail-item" href="#"><strong>Cemter Name</strong> Some text description</a>
+		       			<a class="character-detail-item" href="#"><strong>Cemter Name</strong> Some text description</a>
+		       		</div>
+		       	</div>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.steps.min.js"></script>
+		<script src="js/bootstrap-select.js"></script>
+		<script src="js/scripts.js"></script>
+  </body>
+</html>
