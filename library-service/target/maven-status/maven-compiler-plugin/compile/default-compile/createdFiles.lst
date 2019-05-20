@@ -1,0 +1,16 @@
+com\packtpub\javaee8\boundary\AuthorResource.class
+com\packtpub\javaee8\domain\Author.class
+com\packtpub\javaee8\integration\LoggerProducer.class
+com\packtpub\javaee8\JAXRSConfiguration.class
+com\packtpub\javaee8\domain\Bookshelf.class
+com\packtpub\javaee8\boundary\VersionResource$V1.class
+com\packtpub\javaee8\boundary\BookResource.class
+com\packtpub\javaee8\boundary\VersionResource$V2.class
+com\packtpub\javaee8\domain\Library.class
+com\packtpub\javaee8\integration\RuntimeExceptionMapper.class
+com\packtpub\javaee8\domain\Book.class
+com\packtpub\javaee8\integration\PersistenceExceptionMapper.class
+com\packtpub\javaee8\boundary\VersionResource.class
+com\packtpub\javaee8\integration\EntityManagerProducer.class
+com\packtpub\javaee8\boundary\LoanResource.class
+com\packtpub\javaee8\domain\Loan.class
